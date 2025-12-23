@@ -14,9 +14,9 @@ public sealed class DataServiceTest
             , {7,8,9 } };
         int n1 = 1;
         int n2 = 9;
-        int c = 2;
-        int k = 3;
-        int l = 5;
+        int c = 1;
+        int k = 0;
+        int l = 2;
         int res = ds.result_GetMatrix(matrix, n1, n2, c, k, l);
         Assert.AreEqual(res, res);
         }
